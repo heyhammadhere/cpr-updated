@@ -59,3 +59,10 @@ $("document").ready(function () {
   // Page scroll animate
   new WOW().init();
 });
+
+// Calendar
+
+var calendar = $("#calendar").calendarGC({
+  events: [],
+  onclickDate: function (e) {},
+});
