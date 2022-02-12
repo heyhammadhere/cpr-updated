@@ -61,8 +61,6 @@ $("document").ready(function () {
 });
 
 // Calendar
-
-var calendar = $("#calendar").calendarGC({
-  events: [],
-  onclickDate: function (e) {},
+$(function () {
+  $("#calendar").simpleCalendar();
 });
