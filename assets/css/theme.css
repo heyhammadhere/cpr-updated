@@ -1184,6 +1184,7 @@ a.text-dark:focus {
 
 .bg-image {
   position: relative;
+  background-image: url("../img/banner-pattern.svg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
