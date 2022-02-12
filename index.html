@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assets/vendor/animate/animate.css" />
 
     <link rel="stylesheet" href="assets/css/theme.css" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <!-- Back to top button -->
@@ -72,23 +74,6 @@
             <span class="text-info">Coordinated Care Partners</span></a
           >
 
-          <form action="#">
-            <div class="input-group input-navbar">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="icon-addon1"
-                  ><span class="mai-search text-info"></span
-                ></span>
-              </div>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Enter keyword.."
-                aria-label="Username"
-                aria-describedby="icon-addon1"
-              />
-            </div>
-          </form>
-
           <button
             class="navbar-toggler"
             type="button"
@@ -107,16 +92,15 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#instructors">Instructors</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Instructors</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-info ml-lg-3" href="#">Login / Register</a>
+                <a class="btn btn-info ml-lg-3" href="#"
+                  >OTHER HEALTH SERVICES</a
+                >
               </li>
             </ul>
           </div>
@@ -143,39 +127,41 @@
 
     <div class="bg-light">
       <div class="page-section py-3 mt-md-n5 custom-index">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-3 py-3 py-md-0">
-              <div class="card-service wow fadeInUp">
-                <div class="circle-shape bg-secondary text-white">
-                  <span class="mai-chatbubbles-outline"></span>
-                </div>
-                <p>Chat With An Instructor</p>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-3 p-2 text-center">
+            <div class="card-service wow fadeInUp">
+              <div class="circle-shape bg-secondary text-white">
+                <span class="mai-chatbubbles-outline"></span>
               </div>
+              <p>Chat With An Instructor</p>
             </div>
-            <div class="col-md-3 py-3 py-md-0">
-              <div class="card-service wow fadeInUp">
-                <div class="circle-shape bg-accent text-white">
-                  <span class="mai-basket"></span>
-                </div>
-                <p>Complete The Course</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-2 text-center">
+            <div class="card-service wow fadeInUp">
+              <div class="circle-shape bg-accent text-white">
+                <span class="mai-basket"></span>
               </div>
+              <p>Complete The Course</p>
             </div>
-            <div class="col-md-3 py-3 py-md-0">
-              <div class="card-service wow fadeInUp">
-                <div class="circle-shape bg-info text-white">
-                  <span class="mai-shield-checkmark"></span>
-                </div>
-                <p>Get Certified</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-2 text-center">
+            <div class="card-service wow fadeInUp">
+              <div class="circle-shape bg-info text-white">
+                <span class="mai-shield-checkmark"></span>
               </div>
+              <p>Get Certified</p>
             </div>
-            <div class="col-md-3 py-3 py-md-0">
-              <div class="card-service wow fadeInUp">
-                <div class="circle-shape bg-info text-white">
-                  <span class="mai-shield-checkmark"></span>
-                </div>
-                <p>Get Certified</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-2 text-center">
+            <div class="card-service wow fadeInUp">
+              <div class="circle-shape">
+                <img
+                  src="assets/img/redcross-logo-01.png"
+                  alt=""
+                  style="width: 100%; margin-bottom: 1rem"
+                />
               </div>
+              <p>American Redcross Certified Instructors</p>
             </div>
           </div>
         </div>
@@ -213,7 +199,7 @@
     </div>
     <!-- .bg-light -->
 
-    <div class="page-section">
+    <div id="instructors" class="page-section">
       <div class="container">
         <h1 class="text-center mb-5 wow fadeInUp">Our Instructors</h1>
 
@@ -307,7 +293,7 @@
       </div>
     </div>
 
-    <div class="page-section">
+    <div id="contact" class="page-section">
       <div class="container">
         <h1 class="text-center wow fadeInUp">Make An Appointment</h1>
 
