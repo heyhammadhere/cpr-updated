@@ -59,17 +59,3 @@ $("document").ready(function () {
   // Page scroll animate
   new WOW().init();
 });
-
-// Calendar
-$(function () {
-  $("#calendar").simpleCalendar({
-    events: [
-      {
-        startDate: new Date().toISOString(),
-        summary: "The Day Event Calendar Is Developed",
-        endDate: new Date().toISOString(),
-      },
-    ],
-    disableEmptyDetails: true,
-  });
-});
