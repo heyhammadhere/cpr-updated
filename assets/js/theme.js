@@ -62,5 +62,14 @@ $("document").ready(function () {
 
 // Calendar
 $(function () {
-  $("#calendar").simpleCalendar();
+  $("#calendar").simpleCalendar({
+    events: [
+      {
+        startDate: new Date().toISOString(),
+        summary: "The Day Event Calendar Is Developed",
+        endDate: new Date().toISOString(),
+      },
+    ],
+    disableEmptyDetails: true,
+  });
 });

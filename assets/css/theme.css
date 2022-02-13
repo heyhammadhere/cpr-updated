@@ -1184,7 +1184,15 @@ a.text-dark:focus {
 
 .bg-image {
   position: relative;
-  background-image: url("../img/banner-pattern.svg");
+  background-image: url("../img/banner-pattern-01.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image {
+  position: relative;
+  background-image: url("../img/banner-pattern-02.svg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1790,6 +1798,15 @@ a.text-dark:focus {
   padding: 0;
   background-color: #05b4e1;
   color: #fff;
+}
+
+.banner-home-stroke {
+  padding: 0;
+  color: #26312fc7;
+}
+
+.banner-home-stroke h6 {
+  font-weight: bold;
 }
 
 .banner-home .img-banner {
